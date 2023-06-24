@@ -11,7 +11,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: rgba(0,0,0,0.5) url(/Burnt-Face_Technology/Img/BG1.jpg);
+    background: rgba(0,0,0,0.5) url(/Img/BG1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
@@ -32,7 +32,7 @@ body{
     left: 15%;
     width: 70%;
     height: 75%;
-    background: rgba(0,0,0,0.8) url(/Burnt-Face_Technology/Img/BG1.jpg);
+    background: rgba(0,0,0,0.8) url(/Img/BG1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
