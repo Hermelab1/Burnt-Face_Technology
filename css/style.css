@@ -77,9 +77,9 @@ body{
     position: relative;
     display: block;
     line-height: 75px;
-    font-size: 1.5em;
+    font-size: 1.7em;
     text-align: center;
-    transition: 0.5s;
+    transition: 0.3s;
     color: rgb(46, 46, 46);
 }
 .nav-bar ul li.active a i{
@@ -114,16 +114,16 @@ body{
     transform: translateX(calc(167px * 0));
 }
 .nav-bar ul li:nth-child(2).active ~ .indicator{
-    transform: translateX(calc(175px * 1));
+    transform: translateX(calc(170px * 1));
 }
 .nav-bar ul li:nth-child(3).active ~ .indicator{
-    transform: translateX(calc(170px * 2));
+    transform: translateX(calc(167px * 2));
 }
 .nav-bar ul li:nth-child(4).active ~ .indicator{
-    transform: translateX(calc(167px * 3));
+    transform: translateX(calc(165px * 3));
 }
 .nav-bar ul li:nth-child(5).active ~ .indicator{
-    transform: translateX(calc(166px * 4));
+    transform: translateX(calc(165px * 4));
 }
 
 .message{
@@ -201,7 +201,7 @@ body{
 .about .info{
     top: 25%;
     width: 40%;
-    margin-left: 2%;
+    margin-left: 3%;
     height: 60%;
     line-height: 150%;
     text-align: center;
@@ -228,7 +228,7 @@ body{
 }
 .portfolio1 .details, .portfolio2 .details, .portfolio3 .details
 {
-    top: 67%;
+    top: 65.5%;
     width: 100%;
     padding: 2%;
     text-align: center;
