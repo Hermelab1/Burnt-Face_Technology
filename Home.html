@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=description>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME | Burnt-Face Technology</title>
     <link rel="stylesheet" href="/css/style.css">
-    <script src="https://kit.fontawesome.com/2b08f1308c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="shortcut icon" href="/Img/logo.png" type="image/x-icon" style="border-radius: 100%;">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+
 </head>
 <body>
     <div class="heading" id="HOME">
@@ -73,33 +76,76 @@
         <section class="portfolio" id="PORTFOLIO">
             <h4>BURNT-FACE TECHNOLOGY</h4>
             <div class="cover2">
-                <div class="than">
-                    <i class="fa-solid fa-less-than"></i>
-                </div>
-                <div class="portfolio1">
-                    <img src="/Img/Admas.png" alt="">
-                    <div class="details">
-                        <strong>SCHOOL MANAGEMENT SYSTEM</strong>
-                        <p>As a team we developed a School Management for ADMAS University using Laravel PHP framework for Senior year project.</p>
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wraper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay">
+            
+                                    </span>
+                                    <div class="card-image">
+                                        <img src="/Img/Admas.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">SCHOOL SYSTEM</h2>
+                                    <p class="description">As a team we developed a School Management for ADMAS University using Laravel PHP framework for Senior year project.</p>
+                                    <button class="button"><a href="">VIEW</a></button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay">
+            
+                                    </span>
+                                    <div class="card-image">
+                                        <img src="/Img/portfolio1.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">RENT MANAGEMENT</h2>
+                                    <p class="description">Our team created a mobile app that helps event organizers plan and manage their events more efficiently.</p>
+                                    <button class="button"><a href="">VIEW</a></button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay">
+            
+                                    </span>
+                                    <div class="card-image">
+                                        <img src="/Img/WeddingEvents.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">EVENT ORGANAZER</h2>
+                                    <p class="description">Our team created a mobile app that helps event organizers plan and manage their events more efficiently. </p>
+                                    <p class="description"></p>
+                                    <button class="button"><a href="">VIEW</a></button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay">
+            
+                                    </span>
+                                    <div class="card-image">
+                                        <img src="/Img/portfolio4.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">EVENT SCHEDULLING</h2>
+                                    <p class="description">Our team created a mobile app that helps event organizers plan and manage their events more efficiently.</p>
+                                    <button class="button"><a href="">VIEW</a></button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="portfolio2">
-                    <img src="/Img/portfolio1.jpg" alt="">
-                    <div class="details">
-                        <strong>RENT MANAGEMENT SYSTEM</strong>
-                    <p>We built Rent Management System for building lesser company using C# windows form application backend MSSQL.</p>
-                    </div>
-                </div>
-                <div class="portfolio3">
-                    <img src="/Img/WeddingEvents.png" alt="">
-                    <div class="details">
-                        <strong>EVENT ORGANIZER WEBSITE</strong>
-                    <p>A web application for an event management company using HTML, CSS, and JavaScript for front-end and PHP MySQL for back-end.</p>
-                    </div>
-                </div>
-                <div class="than">
-                    <i class="fa-solid fa-greater-than"></i>
-                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
 
         </section>
@@ -143,9 +189,9 @@
                 <div class="address">
                     <h3>CONTACT US</h3>
                     <p class="moto">Innovative solutions for your business needs</p>
-                    <p><i class="fa-solid fa-phone"></i>Phone: +251 929 08 56 41</p>
-                    <p><i class="fa-solid fa-envelope"></i> Email: burntface.e@gmail.com</p>
-                    <p><i class="fa-solid fa-location-dot"></i> Located: Addis Ababa, Ethiopia</p>
+                    <span><i class="fa-solid fa-phone"></i>Phone: +251 929 08 56 41<br></span>
+                    <span><i class="fa-solid fa-envelope"></i> Email: burntface.e@gmail.com<br></span>
+                    <span><i class="fa-solid fa-location-dot"></i> Located: Addis Ababa, Ethiopia<br></span>
                 </div>
                 <div class="media4">
                     <a href="tel:+251929085641"><i class="fa-solid fa-phone"></i></a>
@@ -200,5 +246,27 @@
     list.forEach((item) =>
     item.addEventListener('click', activeLink));
 </script>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script>
+    var slider = document.querySelector('#slider');
+var box = ['.portfolio2', 'portfolio3'];
+
+var i = 0;
+function prev(){
+    if(i <= 0) i = box.length;
+    i--;
+    return setbox();
+}
+
+function next(){
+    if(i >= box.length-1) i = -1;
+    i++;
+    return setbox();
+}
+
+function setbox(){
+    return slider.setAttribute( box[i]);
+}
+</script>
+<script src="/js/swiper-bundle.min.js"></script>
+<script src="/js/script.js"></script>
