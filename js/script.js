@@ -30,7 +30,7 @@ var swiper = new Swiper(".slide-content", {
       slidesPerView: 2,
     },
     1280:{
-      slidesPerView: 3,
+      slidesPerView:3,
     }
 
   }

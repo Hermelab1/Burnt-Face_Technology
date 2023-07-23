@@ -100,7 +100,7 @@ body{
 }
 .indicator{
     top:-44px;
-    margin-left: 3.5%;
+    margin-left: 4%;
     position: absolute;
     width: 70px;
     height: 70px;
@@ -130,6 +130,7 @@ body{
     color: #ffffff;
     width: 100%;
     height: 30%;
+    line-height: 150%;
     font-size: 2.5em;
     font-weight: 500;
     line-height: 6px;
@@ -196,20 +197,19 @@ body{
     position: relative;
 }
 .about .info{
-    top: 22%;
+    top: 20%;
     width: 40%;
-    margin-left: 4%;
+    margin-left: 5%;
     height: 60%;
     line-height: 200%;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.3em;
     position: relative;
 }
 .slide-container{
     top: 15%;
     width: 95%;
     height: 94%;
-
 }
 .slide-content{
     padding: 25px 15px;
@@ -240,9 +240,8 @@ body{
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #239871;
+    border: 4px solid rgb(16, 68, 68);
 }
-
 .image-content{
     position: relative;
     row-gap: 10px;
@@ -254,7 +253,7 @@ body{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #239871;
+    background-color: rgb(16, 68, 68);
     border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
@@ -265,13 +264,12 @@ body{
     bottom: -40px;
     height: 40px;
     width: 40px;
-    background: #239871;
+    background: rgb(16, 68, 68);
 }
 .overlay::after{
     border-radius: 0 25px 0 0;
     background-color: #fff;
 }
-
 .name{
     font-size: 1em;
     font-weight: 500;
@@ -286,7 +284,7 @@ body{
     border: none;
     width: 30%;
     color: #fff;
-    background-color: #239871;
+    background-color: rgb(16, 68, 68);
     border-radius: 10px;
     margin: 20px;
     cursor: pointer;
@@ -302,7 +300,6 @@ body{
     font-size: 1.2em;
 }
 .service1, .service2,.service3,.service4{
-
     top: 30%;
     margin: 1%;
     position: relative;
@@ -310,6 +307,7 @@ body{
     height: 50%;
     font-size: 1.3em;
     text-align: center;
+    color: #333;
 }
 .service1 i, .service2 i,.service3 i,.service4 i{
     font-size: 3em;
@@ -338,14 +336,12 @@ body{
     top: 5%;
     margin-left: 15%;
 }
-
 .address .moto{
     font-size: 1.2em;
     text-align: center;
     font-weight: 500;
     margin-bottom: 2.5%;
 }
-
 .socialmedia{
     border: solid #e3e1e1;
     top: 10%;
@@ -360,7 +356,7 @@ body{
     border: solid #e3e1e1;
     top: 8%;
     left: 3%;
-    width: 25%;
+    width: 30%;
     height: 80%;
     margin: 2%;
     border-radius: 15px;
@@ -400,21 +396,20 @@ body{
     font-weight: 600;
 }
 .forms{
-    top: 10%;
+    top: 8%;
     margin: 10%;
     display: flex;
     position: absolute;
 }
 .forms input{
     width: 100%;
-    margin: 2.2%;
+    margin: 2%;
     padding: 2%;
     padding-left: 5%;
-    font-size: 1.3em;
+    font-size: 1.2em;
     border: solid rgb(16, 68, 68);
     border-radius: 12px;
 }
-
 .forms button{
     margin-left: 25%;
     background-color: rgb(16, 68, 68);
@@ -446,7 +441,7 @@ body{
         width: 92%;
     }
     .nav-bar{
-        width: 80%;
+        width: 92%;
     }
     .nav-bar ul{
         width: 100%;
@@ -457,7 +452,7 @@ body{
     .nav-bar ul li a .text{
         font-size: 1em;
         font-weight: 600;
-    }  
+    } 
     .indicator{
         top:-44px;
         margin-left: 1%;
@@ -478,14 +473,10 @@ body{
         transform: translateX(calc(69px * 4));
     }
     .message{
-    top: 40%;
-    font-size: 2em;
+    top: 45%;
+    font-size: 1.7em;
     text-align: center;
-    line-height: 120%;
-      
-    }
-    .about, .portfolio, .service, .contact{
-        border: solid red;
+    line-height: 140%;
     }
     .about h4,.portfolio h4,.service h4,.contact h4{
         padding: 3%;
@@ -514,5 +505,580 @@ body{
         font-size: 1.1em;
         position: absolute;
     }
+    .service1{
+        top: 7%;
+        margin: 2%;
+        left: 8%;
+        position: absolute;
+        width: 80%;
+        height: 22%;
+        font-size: 1em;
+    }
+    .service2{
+        top: 31%;
+        margin: 2%;
+        left: 8%;
+        position: absolute;
+        width: 80%;
+        height: 20%;
+        font-size: 1em;
+    }
+   .service3{
+        top: 55%;
+        margin: 2%;
+        left: 8%;
+        position: absolute;
+        width: 80%;
+        height: 20%;
+        font-size: 1em;
+    }
+   .service4{
+        top: 75%;
+        margin: 2%;
+        left: 8%;
+        position: absolute;
+        width: 80%;
+        height: 25%;
+        font-size: 1em;
+    }
+    .service1 i, .service2 i,.service3 i,.service4 i{
+        font-size: 1.8em;
+    }
+    .address{
+        top: 2%;
+        left: 0%;
+        width: 100%;
+        height: 70%;
+        position: absolute;
+        font-size: 1.1em;
+        line-height: 175%;
+    }
+    .address h3{
+        font-size: 2em;
+    }
+    .address span{
+        top: 2%;
+        margin-left: 10%;
+    }
+    .address .moto{
+        font-size: 1.1em;
+        font-weight: 500;
+        margin-bottom:0%;
+    }
+    .socialmedia{
+        border: solid #e3e1e1;
+        width: 90%;
+        height: 37%;
+        margin: 1.2%;
+        border-radius: 15px;
+        position: absolute;
+    }
+    .messagehere{
+        top: 49%;
+        left: 4%;
+        width: 90%;
+        height: 48%;
+    }
+    .media1, .media2,.media3,.media4,.media5{
+        border: solid #e3e1e1;
+        top: 80%;
+        left: 5%;
+        margin: 2%;
+        width: 12%;
+        height: 16%;
+    }
+    .messagehere .heads2 p{
+        padding-top: 0.5%;
+        font-size: 1.5em;
+    }
+    .forms{
+        top: 2%;
+    }
+    .forms input{
+        margin: 1.2%;
+        padding: 1.2%;
+        font-size: 1em;   
+    }    
+}
+@media screen and (max-width: 600px) and (min-width: 480px){
+    .heading{
+        padding: 2%;
+        font-size: 1.7em;
+    }
+    .cover{
+        top: 15%;
+        left: 5%;
+        width: 92%;
+    }
+    .nav-bar{
+        width: 92%;
+    }
+    .nav-bar ul{
+        width: 450px;
+    }
+    .nav-bar ul li{
+        width: 25%;
+    }
+    .nav-bar ul li a .text{
+        font-size: 1.2em;
+        font-weight: 600;
+    } 
+    .indicator{
+        top:-50px;
+        margin-left: 2%;
+    }
+    .nav-bar ul li:nth-child(1).active ~ .indicator{
+        transform: translateX(calc(45px * 0));
+    }
+    .nav-bar ul li:nth-child(2).active ~ .indicator{
+        transform: translateX(calc(90px * 1));
+    }
+    .nav-bar ul li:nth-child(3).active ~ .indicator{
+        transform: translateX(calc(90px * 2));
+    }
+    .nav-bar ul li:nth-child(4).active ~ .indicator{
+        transform: translateX(calc(90px * 3));
+    }
+    .nav-bar ul li:nth-child(5).active ~ .indicator{
+        transform: translateX(calc(90px * 4));
+    }
+    .message{
+        top: 45%;
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 150%;
+    }
+    .about h4,.portfolio h4,.service h4,.contact h4{
+        padding: 3%;
+        font-size: 1.5em;
+    }
+    .cover2{
+        height: 75%;
+    }
+    .about .companylogo{
+        top: 8%;
+        margin-left: 25%;
+        width: 50%;
+        text-align: center;
+        position: relative;
+    }
+    .about .companylogo img{
+        width:100%;
+    }
+    .about .info{
+        color: #333;
+        top: 60%;
+        margin-left: 5%;
+        width: 94%;
+        line-height: 100%;
+        font-size: 1.1em;
+        position: absolute;
+    }
+    .slide-container{
+        top: 15%;
+        width: 90%;
+        height: 85%;
+    }
+    .service1{
+        color: #333;
+        top: 20%;
+        margin: 1%;
+        left: 6%;
+        position: absolute;
+        width: 45%;
+        height: 22%;
+        font-size: 1em;
+    }
+    .service2{
+        top: 20%;
+        margin: 1%;
+        left: 53%;
+        position: absolute;
+        width: 45%;
+        height: 22%;
+        font-size: 1em;
+        color: #333;
+    }
+   .service3{
+        top: 60%;
+        margin: 1%;
+        left: 6%;
+        position: absolute;
+        width: 45%;
+        height: 22%;
+        font-size: 1em;
+        color: #333;
+    }
+   .service4{
+        top: 60%;
+        margin: 1%;
+        left: 53%;
+        position: absolute;
+        width: 45%;
+        height: 22%;
+        font-size: 1em;
+        color: #333;
+    }
+    .service1 i, .service2 i,.service3 i,.service4 i{
+        font-size: 2em;
+    }
+    .address{
+        top: 5%;
+        left: 0;
+        width: 100%;
+        height: 70%;
+        position: absolute;
+        font-size: 1.1em;
+        line-height: 175%;
+    }
+    .address h3{
+        font-size: 2em;
+    }
+    .address span{
+        top: 4%;
+        margin-left: 20%;
+        line-height: 10px;
+    }
+    .address .moto{
+        font-size: 1em;
+        font-weight: 500;
+        margin-bottom:0%;
+    }
+    .socialmedia{
+        border: solid #e3e1e1;
+        top: 6%;
+        left: 10%;
+        width: 80%;
+        height: 40%;
+        margin: 1.2%;
+        border-radius: 15px;
+        position: absolute;
+    }
+    .messagehere{
+        top: 47%;
+        left: 10%;
+        width: 80%;
+        height: 50%;
+    }
+    .media1, .media2,.media3,.media4,.media5{
+        border: solid #e3e1e1;
+        top: 76%;
+        left: 15%;
+        margin: 2%;
+        width: 10%;
+        height: 20%;
+    }
+    .messagehere .heads2 p{
+        padding-top: 1%;
+        font-size: 1.4em;
+    }
+    .forms{
+        top: 1%;
+    }
+    .forms input{
+        margin: 0.5%;
+        padding: 0.5%;
+        font-size: 1em;   
+    }    
+}
+
+@media screen and (max-width: 912px) and (min-width: 600px){
+    .heading{
+        padding: 3%;
+        font-size: 2em;
+    }
+    .cover{
+        top: 15%;
+        left: 5%;
+        width: 92%;
+    }
+    .nav-bar{
+        width: 92%;
+    }
+    .nav-bar ul li{
+        width: 150px;
+    }
+    .nav-bar ul li a .text{
+        font-size: 1.2em;
+        font-weight: 600;
+    } 
+    .indicator{
+        top:-40px;
+        margin-left: 5%;
+    }
+    .nav-bar ul li:nth-child(1).active ~ .indicator{
+        transform: translateX(calc(45px * 0));
+    }
+    .nav-bar ul li:nth-child(2).active ~ .indicator{
+        transform: translateX(calc(150px * 1));
+    }
+    .nav-bar ul li:nth-child(3).active ~ .indicator{
+        transform: translateX(calc(150px * 2));
+    }
+    .nav-bar ul li:nth-child(4).active ~ .indicator{
+        transform: translateX(calc(150px * 3));
+    }
+    .nav-bar ul li:nth-child(5).active ~ .indicator{
+        transform: translateX(calc(150px * 4));
+    }
+    .message{
+        font-size: 2.2em;
+        text-align: center;
+        line-height: 150%;
+      
+    }
+    .about h4,.portfolio h4,.service h4,.contact h4{
+        padding: 3%;
+        font-size: 1.5em;
+    }
+    .cover2{
+        height: 75%;
+    }
+    .about .companylogo{
+        top: 25%;
+        margin-left: 3%;
+        width: 25%;
+    }
+    .about .info{
+        top: 15%;
+        margin-left: 15%;
+        width: 60%;
+        line-height: 175%;
+        font-size: 1.3em;
+        position: relative;
+    }
+    .slide-container{
+        top: 27%;
+        width: 90%;
+        height: 70%;
+    }
+    .service1{
+        top: 20%;
+        margin: 2%;
+        left: 6%;
+        position: absolute;
+        width: 40%;
+        height: 22%;
+        font-size: 1.2em;
+    }
+    .service2{
+        top: 20%;
+        margin: 2%;
+        left: 50%;
+        position: absolute;
+        width: 40%;
+        height: 22%;
+        font-size: 1.2em;
+    }
+   .service3{
+        top: 55%;
+        margin: 2%;
+        left: 6%;
+        position: absolute;
+        width: 40%;
+        height: 22%;
+        font-size: 1.2em;
+    }
+   .service4{
+        top: 55%;
+        margin: 2%;
+        left: 50%;
+        position: absolute;
+        width: 40%;
+        height: 22%;
+        font-size: 1.2em;
+    }
+    .service1 i, .service2 i,.service3 i,.service4 i{
+        font-size: 2em;
+    }
+    .address{
+        top: 5%;
+        left: 0;
+        width: 100%;
+        height: 70%;
+        position: absolute;
+        font-size: 1.1em;
+        line-height: 175%;
+    }
+    .address h3{
+        font-size: 2.2em;
+    }
+    .address span{
+        top: 4%;
+        margin-left: 20%;
+        line-height: 40px;
+    }
+    .address .moto{
+        font-size: 1.3em;
+        font-weight: 500;
+        margin-bottom:2%;
+    }
+    .socialmedia{
+        border: solid #e3e1e1;
+        left: 15%;
+        width: 70%;
+        height: 37%;
+        margin: 1.2%;
+        border-radius: 15px;
+        position: absolute;
+    }
+    .messagehere{
+        top: 49%;
+        left: 15%;
+        width: 70%;
+        height: 48%;
+    }
+    .media1, .media2,.media3,.media4,.media5{
+        border: solid #e3e1e1;
+        top: 75%;
+        left: 10%;
+        margin: 2%;
+        width: 10%;
+        height: 16%;
+    }
+    .messagehere .heads2 p{
+        padding-top: 1%;
+        font-size: 1.6em;
+    }
+    .forms{
+        top: 2%;
+    }
+    .forms input{
+        margin: 1.2%;
+        padding: 1.2%;
+        font-size: 1.2em;   
+    }    
+}
+@media screen and (max-width: 1084px) and (min-width: 912px)
+{
+    .indicator{
+        margin-left: 6.2%;
+    }
+    .nav-bar ul li.active a i{
+        transform: translateY(-40px);
+    }
+    .nav-bar ul li:nth-child(1).active ~ .indicator{
+        transform: translateX(calc(80px * 0));
+    }
+    .nav-bar ul li:nth-child(2).active ~ .indicator{
+        transform: translateX(calc(160px * 1));
+    }
+    .nav-bar ul li:nth-child(3).active ~ .indicator{
+        transform: translateX(calc(160px * 2));
+    }
+    .nav-bar ul li:nth-child(4).active ~ .indicator{
+        transform: translateX(calc(160px * 3));
+    }
+    .nav-bar ul li:nth-child(5).active ~ .indicator{
+        transform: translateX(calc(160px * 4));
+    }
+    .message{
+        top: 40%;
+        font-size: 2.3em;
+        text-align: center;
+        line-height: 150%;  
+        }
+    .about .info{
+        top: 15%;
+        left: 10%;
+        width: 50%;
+        line-height: 150%;
+        font-size: 1.2em;
+    }
+    .about .companylogo{
+            top: 15%;
+            margin-left: 10%;
+        }
+    .slide-container{
+            top: 3%;
+            width: 90%;
+            height: 95%;
+        
+        }
+    .service1, .service2,.service3,.service4{
+            font-size: 1em;
+        }
+        .service1 i, .service2 i,.service3 i,.service4 i{
+            font-size: 3em;
+        }
+
+    .address{
+            top: 5%;
+            left: 6%;
+            width: 90%;
+            line-height: 190%;
+        }
+    .messagehere{
+            width: 31%;
+        }
+    .forms{
+            top: 12%;
+            margin: 5%;
+        }
+    .forms input{
+            margin: 1%;
+            font-size: 1em;
+        }
+    .address .moto{
+            font-size: 1em;
+        }
     
+
+
+}
+@media screen and (max-width: 1280px) and (min-width: 1084px)
+{
+    .indicator{
+        margin-left: 5%;
+    }
+    .nav-bar ul li.active a i{
+        transform: translateY(-40px);
+    }
+    .nav-bar ul li:nth-child(1).active ~ .indicator{
+        transform: translateX(calc(80px * 0));
+    }
+    .nav-bar ul li:nth-child(2).active ~ .indicator{
+        transform: translateX(calc(160px * 1));
+    }
+    .nav-bar ul li:nth-child(3).active ~ .indicator{
+        transform: translateX(calc(160px * 2));
+    }
+    .nav-bar ul li:nth-child(4).active ~ .indicator{
+        transform: translateX(calc(160px * 3));
+    }
+    .nav-bar ul li:nth-child(5).active ~ .indicator{
+        transform: translateX(calc(160px * 4));
+    }
+    .message{
+        top: 40%;
+        font-size: 2.5em;
+        text-align: center;
+        line-height: 150%;  
+        }
+    .about .info{
+        top:15%;
+            left: 2%;
+            width: 50%;
+            line-height: 180%;
+            font-size: 1.3em;
+        }
+    .address{
+            top: 8%;
+            left: 8%;
+            width: 90%;
+        }
+    .messagehere{
+            top: 8%;
+            left: 3%;
+            width: 30%;
+        }
+    .forms{
+            top: 8%;
+        }
+    .address .moto{
+            font-size: 1em;
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 2.5%;
+        }
 }
